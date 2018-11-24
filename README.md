@@ -1,4 +1,4 @@
-# Woocommerce mail details with time dependent
+# Woocommerce email details with time dependent
 I added a small change that will allow you to quickly and easily customize the body of the email that the client will receive when you receive the order.
 
 ### Changes
