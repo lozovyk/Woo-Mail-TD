@@ -1,7 +1,7 @@
 # Woocommerce mail details with time dependent
 I added a small change that will allow you to quickly and easily customize the body of the email that the client will receive when you receive the order.
 
-### Code looks like
+### Changes
 
 ```php
 $currentDateTime = new DateTime("now", new DateTimeZone("Europe/Kiev")); //place your time zone, you can find it on ~~ http://php.net/manual/en/timezones.php
