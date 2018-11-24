@@ -1,7 +1,7 @@
 # Woocommerce email details with time dependent
 I added a small change that will allow you to quickly and easily customize the body of the email that the client will receive when you receive the order.
 
-![alt text](https://imgur.com/a/NR8DvzD)
+![alt Mail example](https://user-images.githubusercontent.com/20230215/48972916-0e656f00-f03d-11e8-968d-fc95cd1a75d4.jpg)
 
 ## Installation
 
