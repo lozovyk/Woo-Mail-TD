@@ -25,9 +25,9 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 do_action( 'woocommerce_email_header', $email_heading, $email );
 
-<!--------------------------->
-<!-----Time filter START----->
-<!--------------------------->
+//<!--------------------------->
+//<!-----Time filter START----->
+//<!--------------------------->
 
 $currentDateTime = new DateTime("now", new DateTimeZone("Europe/Kiev")); //place your time zone, you can find it on ~~ http://php.net/manual/en/timezones.php
 
@@ -58,9 +58,9 @@ function isFridayWeekend($currentDateTime){
     return $currentDateTime->format('N') == 5 && isAfterLunch($currentDateTime); //if it's time on Friday after lunch, then we use "isWeekend".
 }
 
-<!--------------------------->
-<!------Time filter END------>
-<!--------------------------->
+//<!--------------------------->
+//<!------Time filter END------>
+//<!--------------------------->
 
 /**
  * @hooked WC_Emails::order_details() Shows the order details table.
