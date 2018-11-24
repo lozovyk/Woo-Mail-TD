@@ -1,6 +1,10 @@
 # Woocommerce email details with time dependent
 I added a small change that will allow you to quickly and easily customize the body of the email that the client will receive when you receive the order.
 
+```bash
+/wp-content/plugins/woocommerce/templates/emails
+```
+
 ### Changes
 
 ```php
